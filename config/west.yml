@@ -8,8 +8,8 @@ manifest:
     # nice_oled - nice_epaper - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: ZackTully2000
-      url-base: https://github.com/ZackTully2000
+    # - name: ZackTully2000
+      # url-base: https://github.com/ZackTully2000
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,7 +21,8 @@ manifest:
     #   revision: main
     # nice_oled - nice_epaper
     - name: zmk-nice-oled
-      remote: ZackTully2000
+      remote: mctechnology17
+      # remote: ZackTully2000
       revision: main
     # dongle_display!view
     # - name: zmk-dongle-display-view
