@@ -19,9 +19,8 @@ manifest:
     # - name: zmk-dongle-display
     #   remote: englmaxi
     #   revision: main
-    nice_oled - nice_epaper
+    # nice_oled - nice_epaper
     - name: zmk-nice-oled
-      # remote: mctechnology17
       remote: ZackTully2000
       revision: main
     # dongle_display!view
