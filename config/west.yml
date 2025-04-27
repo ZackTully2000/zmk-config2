@@ -9,7 +9,7 @@ manifest:
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
     - name: ZackTully2000
-      url-base: https://github.com/ZackTully2000/zmk-nice-oled
+      url-base: https://github.com/ZackTully2000
   projects:
     - name: zmk
       remote: zmkfirmware
