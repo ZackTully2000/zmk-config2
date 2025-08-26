@@ -75,7 +75,7 @@ layers:
   - ⏮️
   - PLAY PAUSE
   - ⏭️
-  - Gui+`
+  - '`'
   - '&mkp RCLK'
   - '&mmv MOVE_UP'
   - '&mkp LCLK'
