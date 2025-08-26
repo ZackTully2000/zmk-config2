@@ -75,12 +75,12 @@ layers:
   - ⏮️
   - PLAY PAUSE
   - ⏭️
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_RIGHT'
-  - '&msc SCRL_UP'
+  - Gui+`
+  - '&mkp RCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp LCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&latex_matrix'
   - PAGE UP
   - {t: ▽, type: trans}
   - UP ARROW
@@ -88,9 +88,9 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - '&mmv MOVE_UP'
-  - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Page Down
@@ -99,9 +99,9 @@ layers:
   - →
   - '['
   - ']'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -113,8 +113,8 @@ layers:
   - End
   - '{'
   - '}'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
